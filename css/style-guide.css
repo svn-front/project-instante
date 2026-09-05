@@ -1,0 +1,14 @@
+:root {
+
+    /*=== COLORS ===*/
+    --gray-brand: #151515;
+    --yellow-brand: #F9BE03;
+    --white-brand: #FFFFFF;
+    --red-brand: #E31412;
+    --green-brand: #64AB09;
+    --blue-brand: #0077DC;
+
+    --yellow-light: #F9D56E;
+    --gray-medium: #1D1D1D;
+    --gray-light: #E5E5E5;
+}

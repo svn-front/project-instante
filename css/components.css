@@ -1,5 +1,20 @@
-/*=== BUTTONS ===*/
+/*=== TAGS ===*/
+.yellow-tag {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: var(--yellow-brand);
+    color: var(--gray-brand);
+    font-weight: 500;
+    border-radius: var(--radius-m);
+    font-size: 0.8rem;
+}
 
+/*=== HIGHLIGHTS ===*/
+.highlight-blue {
+    color: var(--blue-brand-light);
+}
+
+/*=== BUTTONS ===*/
 .gray-button {
     padding: 10px 20px;
     background-color: var(--gray-brand);
@@ -7,9 +22,28 @@
     border: none;
     border-radius: var(--radius-xl);
     cursor: pointer;
+    transition: var(--transition-medium);
 }
 
 .gray-button:hover {
     background-color: var(--gray-hover);
-    color: var(--yellow-hover);
+    color: var(--white-hover);
+    transition: var(--transition-medium);
+}
+
+.yellow-button {
+    padding: 10px 20px;
+    background-color: var(--yellow-brand);
+    color: var(--gray-brand);
+    border: none;
+    border-radius: var(--radius-xl);
+    cursor: pointer;
+    transition: var(--transition-medium);
+    font-weight: 500;
+}
+
+.yellow-button:hover {
+    background-color: var(--gray-brand);
+    color: var(--white-brand);
+    transition: var(--transition-medium);
 }

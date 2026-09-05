@@ -52,3 +52,49 @@ header {
 }
 
 /*=== HERO ===*/
+
+#main-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: var(--white-brand-light);
+}
+
+#product-hero-info {
+    width: 50%;
+    padding-inline: 80px;
+}
+
+#product-hero-info h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-block: 20px;
+}
+
+#product-hero-info p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-block: 20px;
+}
+
+#product-hero-info a {
+    margin-left: 20px;
+    font-size: 1rem;
+    color: var(--gray-brand);
+    transition: var(--transition-medium);
+}
+
+#product-hero-info a:hover {
+    text-decoration: underline;
+    color: var(--blue-brand);
+    transition: var(--transition-medium);
+}
+
+#product-hero-foto img {
+    width: 720px;
+    height: auto;
+    padding-block: 20px;
+    
+    background-color: var(--blue-brand-light);
+}

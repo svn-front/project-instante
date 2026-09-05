@@ -1,6 +1,54 @@
 /*=== GLOBAL IMPORTS ===*/
+@import url('/css/style-guide.css');
 @import url('/css/global-reset.css');
-@import url('/css/global-styles.css');
 @import url('/css/components.css');
 
-/*=== GLOBAL IMPORTS ===*/
+/*=== HEADER ===*/
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--yellow-brand);
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+/*--- NAVIGATION ---*/
+#nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+#nav-links a {
+    transition: var(--transition-medium);
+}
+
+#nav-links a:hover {
+    font-weight: 500;
+    transition: var(--transition-medium);
+    
+}
+
+#user-actions {
+    display: flex;
+}
+
+#user-actions img {
+    height: 18px;
+    width: 18px;
+}
+
+#icons {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/*=== HERO ===*/

@@ -8,7 +8,22 @@
     --green-brand: #64AB09;
     --blue-brand: #0077DC;
 
-    --yellow-light: #F9D56E;
-    --gray-medium: #1D1D1D;
-    --gray-light: #E5E5E5;
+    --gray-hover: #1D1D1D;
+    --yellow-hover: #F9D56E;
+    --white-hover: #E5E5E5;
+    --red-hover: #E31412;
+    --green-hover: #64AB09;
+    --blue-hover: #0077DC;
+
+    /*=== BORDERS ===*/
+    --radius-s: 5px;
+    --radius-d: 8px;
+    --radius-m: 12px;
+    --radius-l: 16px;
+    --radius-xl: 20px;
+
+    /*=== TRANSITIONS ===*/
+    --transition-fast: 0.2s;
+    --transition-medium: 0.4s;
+    --transition-slow: 0.6s;
 }

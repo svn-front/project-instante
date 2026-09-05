@@ -1,0 +1,15 @@
+/*=== BUTTONS ===*/
+
+.gray-button {
+    padding: 10px 20px;
+    background-color: var(--gray-brand);
+    color: var(--yellow-brand);
+    border: none;
+    border-radius: var(--radius-xl);
+    cursor: pointer;
+}
+
+.gray-button:hover {
+    background-color: var(--gray-hover);
+    color: var(--yellow-hover);
+}

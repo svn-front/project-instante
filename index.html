@@ -3,14 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Instante - Capture o que importa</title>
 </head>
 <body>
     
-    <header>
-        
+    <!-- Header and Navigation -->
+    <header class="container">
+        <a href="index.html" class="logo">
+            <img src="/assets/branding/instante-black.svg" alt="Logo do Instante">
+        </a>
+
+        <ul id="nav-links">
+            <li><a href="#">Câmeras</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sobre nós</a></li>
+        </ul>
+
+        <div id="user-actions">
+            <div id="icons">
+                <img src="/assets/icons/magnify.svg" alt="Ícone de pesquisa">
+                <img src="/assets/icons/user.svg" alt="Ícone de usuário">
+                <img src="/assets/icons/market-car.svg" alt="Ícone de carrinho">
+            </div>
+            <button class="gray-button">Comprar Agora</button>
+        </div>
     </header>
+    
+    <main id="main-hero">
+        <section class="product-hero-info">
+            <span class="yellow-tag">Instante 3000S</span>
+            <h1>Capture cada <span class="highlight">momento</span> na hora!</h1>
+            <p>A Instante 3000S é a câmera instantânea perfeita para capturar todos os seus momentos especiais sem delay.</p>
+            <button id="yellow-button">Ver Câmeras</button>
+            <a href="#">Saiba mais</a>
+        </section>
+        <section class="product-hero-foto">
+        </section>
+    </main>
 </body>
 </html>
